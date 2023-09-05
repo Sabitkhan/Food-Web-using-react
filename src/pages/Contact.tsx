@@ -38,7 +38,7 @@ const Contact = () => {
         </p>
       </Box>
       <Box margin={5} width={"600px"}  sx={{"@media (max-width:800px)":{
-        width:"400px"
+        width:"300px"
       }}}>
         <TableContainer component={Paper}>
           <Table aria-label="Contact Table">
