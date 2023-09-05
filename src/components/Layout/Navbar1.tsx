@@ -9,9 +9,9 @@ import {
   Toolbar,
   Typography,
 } from "@mui/material";
-import React, { useState } from "react";
-import "../../styles/NavbarStyle.css";
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import "../../styles/NavbarStyle.css";
 
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);

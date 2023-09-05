@@ -1,4 +1,3 @@
-import { FastfoodRounded } from "@mui/icons-material";
 import MenuIcon from "@mui/icons-material/Menu";
 import {
   AppBar,
@@ -9,10 +8,10 @@ import {
   Toolbar,
   Typography,
 } from "@mui/material";
-import Logo from "../../assets/5526265.jpg";
-import { NavLink } from "react-router-dom";
-import "../../styles/NavbarStyle.css";
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
+import Logo from "../../assets/5526265.jpg";
+import "../../styles/NavbarStyle.css";
 
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);

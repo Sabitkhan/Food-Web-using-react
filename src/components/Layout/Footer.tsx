@@ -5,8 +5,7 @@ import {
   WhatsApp,
   YouTube,
 } from "@mui/icons-material";
-import { Box, Typography, responsiveFontSizes } from "@mui/material";
-import React from "react";
+import { Box, Typography } from "@mui/material";
 
 const Footer = () => {
   return (

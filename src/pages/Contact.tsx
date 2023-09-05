@@ -1,14 +1,14 @@
 import { Call, Mail, SupportAgent } from "@mui/icons-material";
 import {
   Box,
+  Paper,
   Table,
   TableBody,
   TableCell,
   TableContainer,
+  TableHead,
   TableRow,
   Typography,
-  TableHead,
-  Paper,
 } from "@mui/material";
 
 const Contact = () => {
@@ -37,7 +37,7 @@ const Contact = () => {
           facere adipisci beatae!
         </p>
       </Box>
-      <Box margin={5} width={"600px"}  sx={{"@media (max-width:700px)":{
+      <Box margin={5} width={"600px"}  sx={{"@media (max-width:800px)":{
         width:"400px"
       }}}>
         <TableContainer component={Paper}>
