@@ -1,0 +1,96 @@
+.home {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+  align-items: left;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.headerContainer {
+  width: auto;
+  margin-left: 30px;
+}
+.home .headerContainer h1 {
+  /* text-align: center; */
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 70px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+
+}
+.home .headerContainer p {
+  margin-top: 15px;
+  padding: 0%;
+  font-size: 40px;
+  font-weight: lighter;
+  color: black;
+}
+.home .headerContainer button {
+  background-color: #121619;
+  color: white;
+  height: 50px;
+  width: 180px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 20px;
+}
+.headerContainer button:hover {
+  background-color: #07090a;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+/* Mobile view */
+
+@media only screen and (max-width: 600px) {
+  .home {
+    justify-content: center;
+    align-items: center;
+  }
+  .home .headerContainer {
+    background-color: #121619;
+    /* opacity: 0.89; */
+    color: white;
+    border-radius: 10px;
+    width: 80%;
+    /* padding: 30PX; */
+    margin-left: 0PX;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .home .headerContainer h1{
+    color: white;
+    font-size: 40px;
+    height: 30px;
+    margin: 25px 0px;
+    /* font-weight: bolder; */
+  }
+  .home .headerContainer p{
+    color: white;
+    font-size: 30px;
+  }
+  .home .headerContainer button {
+    color: #121619;
+    background-color: white;
+    margin-bottom: 30px;
+  }
+  .home .headerContainer button:hover{
+    /* background-color: #121619; */
+    color: white;
+    background-color: goldenrod;
+    transform: translate(5px);
+    transition: all 300ms ease-in;
+    font-weight: bolder;
+
+  }
+}
