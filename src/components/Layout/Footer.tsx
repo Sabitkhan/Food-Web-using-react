@@ -17,6 +17,9 @@ const Footer = () => {
             fontSize: "60px",
             cursor: "pointer",
             mr: 2,
+            "@media (max-width:600px)": {
+              width: "30px",
+            },
           },
           "& svg:hover": {
             color: "goldenrod",

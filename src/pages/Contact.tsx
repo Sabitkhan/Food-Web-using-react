@@ -16,17 +16,19 @@ const Contact = () => {
     <>
       <Box
         sx={{
-          m: 10,
+          m: 5,
 
           "& h4": {
             fontWeight: "bold",
             mb: 1,
+            fontSize:"1rem"
           },
-          "@media (max-width:600px)":{
-            "& p":{
-              textAlign:"justify"
-            }
-          }
+          "@media (max-width:600px)": {
+            "& p": {
+              textAlign: "justify",
+              fontSize:".5rem"
+            },
+          },
         }}
       >
         <Typography variant="h4">CONTACT US</Typography>
@@ -37,9 +39,15 @@ const Contact = () => {
           facere adipisci beatae!
         </p>
       </Box>
-      <Box margin={5} width={"600px"}  sx={{"@media (max-width:800px)":{
-        width:"300px"
-      }}}>
+      <Box
+        margin={5}
+        width={"600px"}
+        sx={{
+          "@media (max-width:600px)": {
+            width: "280px",
+          },
+        }}
+      >
         <TableContainer component={Paper}>
           <Table aria-label="Contact Table">
             <TableHead>
@@ -66,7 +74,7 @@ const Contact = () => {
               </TableRow>
               <TableRow>
                 <TableCell>
-                  <Call htmlColor="skyblue" sx={{pt:1}} /> 03482343231
+                  <Call htmlColor="skyblue" sx={{ pt: 1 }} /> 03482343231
                 </TableCell>
               </TableRow>
             </TableBody>
