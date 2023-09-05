@@ -4,6 +4,10 @@
   align-items: center;
   justify-content: center;
 }
+.active {
+  color: goldenrod !important;
+  font-weight: bold !important;
+}
 .navigation-menu li {
   margin: 0px 20px;
 }
@@ -20,5 +24,5 @@
 .mobile-navigation li a {
   text-decoration: none;
   font-size: 1.4rem;
-  color: black  ;
+  color: black;
 }

@@ -9,7 +9,7 @@ import {
   Toolbar,
   Typography,
 } from "@mui/material";
-
+import Logo from "../../assets/5526265.jpg";
 import { NavLink } from "react-router-dom";
 import "../../styles/NavbarStyle.css";
 import { useState } from "react";
@@ -32,7 +32,14 @@ const Navbar = () => {
         sx={{ flexGrow: 1 }}
         color={"goldenrod"}
       >
-        <FastfoodRounded /> Best selling Food
+        {/* <FastfoodRounded /> Best selling Food */}
+        <img
+          src={Logo}
+          alt=""
+          height={"50px"}
+          width={"50px"}
+          style={{ borderRadius: "30px" }}
+        />
       </Typography>
       <Divider />
       <ul className="mobile-navigation">
@@ -65,8 +72,14 @@ const Navbar = () => {
             >
               <MenuIcon />
             </IconButton>
-            <FastfoodRounded />
-
+            {/* <FastfoodRounded /> */}
+            <img
+              src={Logo}
+              alt=""
+              height={"50px"}
+              width={"50px"}
+              style={{ borderRadius: "30px" }}
+            />
             <Typography
               marginLeft={1}
               component={"div"}
@@ -110,7 +123,7 @@ const Navbar = () => {
           >
             {drawer}
           </Drawer>
-          <Box >
+          <Box>
             <Toolbar />
           </Box>
         </Box>
